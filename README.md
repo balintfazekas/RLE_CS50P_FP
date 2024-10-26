@@ -1,13 +1,13 @@
 # Run-Length Encoding (RLE) of Binary Images in Python
 
-#### Video Demo:  <[URL HERE](https://youtu.be/EpZc8yA8Sgs)>
+#### Video Demo:  <[Run-Length Encoding (RLE) of Binary Images in Python](https://youtu.be/EpZc8yA8Sgs)>
 #### Author: Balint Fazekas
 #### Date: 2024.09.26.
 
 ## Description
 
-The project is created as the final project of 'CS50's: Introduction of Programming with
-Python' online course.
+The project is created as the final project of [CS50's: Introduction of Programming with
+Python](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python) online course.
 
 ### Understanding binary images
 A binary image is a digital image that consists of only two unique pixel values, 
@@ -86,8 +86,8 @@ After initialisation 'Decoder.forward()' execute the decompression automatically
 ### High-overview of Task-specific classes operation
 #### Encoder class
 'Encoder' class execute the following steps:
-- check extension of given 'output_csv' path. Raise 'ValueError', if defined output path 
-is not in '.csv' extension.
+- check extension of given 'output_csv' path. Raise 'ValueError', if defined output 
+path is not in '.csv' extension.
 - collecting individual paths of given 'input_folder' and 'image_suffix'.
 - create output '.csv'.
 - For 'path' in 'paths':
@@ -166,8 +166,8 @@ performance.
 
 ### Installation
 
-The program is implemented in Python in version 3.11.10. Futher versions of Python is not
- tested.
+The program is implemented in Python in version 3.11.10. Futher versions of Python is not 
+tested.
 
 If you have existing 'conda' installation (recommended) execute this line in terminal:
 
