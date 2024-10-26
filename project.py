@@ -420,9 +420,9 @@ def check_reconstruction_is_valid(original_images: str,
 def main():
 
     # Parameters
-    input_folder = "/Users/fazekasbalint/Documents/Programing/2024/FB_Major/data/images/patches_for_Labkit_512/masks/q1"
-    renconstructed_images = "data/reconstructed_masks"
-    decoder_input_file = 'data/output.csv'
+    input_folder = "" # Insert your input folder here
+    renconstructed_images = "reconstructed_masks"
+    decoder_input_file = 'output.csv'
 
 
     # Encoder block
@@ -439,7 +439,7 @@ def main():
     # Decoder block
     start_time = time.time()
     decoder = Decoder(input_file = decoder_input_file,
-                      output_folder = 'data/reconstructed_masks')
+                      output_folder = renconstructed_images)
     end_time = time.time()
     execution_time = end_time - start_time
     minutes, seconds = divmod(execution_time, 60)

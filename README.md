@@ -1,6 +1,6 @@
-# Run-Length Encoding (RLE) of Binary Images
+# Run-Length Encoding (RLE) of Binary Images in Python
 
-#### Video Demo:  <URL HERE>
+#### Video Demo:  <[URL HERE](https://youtu.be/EpZc8yA8Sgs)>
 #### Author: Balint Fazekas
 #### Date: 2024.09.26.
 
@@ -95,7 +95,7 @@ If 'log_excluded' defined as 'True', non-binary image names are listed into 'exc
 For additional details, please refer to the docstring of the relevant functions in the project.py file.
 <br><br>
 
-### Compression ratio
+### Performance
 
 The expected compression ratio is significantly influenced by the variation in pixel value frequency. To estimate the average compression ratio, I ran the encoder on 1,600 binary images, each sized 512 x 512 pixels, similar to the example above. For this RLE implementation, the expected compression ratio is approximately 0.2.
 
