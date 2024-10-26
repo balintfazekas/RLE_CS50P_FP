@@ -23,7 +23,7 @@ Due to their inherent simplicity, binary images also provide opportunities for f
 This final project aims to develop a straightforward Run-Length Encoding method for achieving substantial data compression of binary images using Python.
 <br><br>
 
-### Understanding Run-Length Encodeing
+### Understanding Run-Length Encoding
 Run-Length Encoding (RLE) is a simple and efficient form of data compression, particularly effective for binary images. It works by reducing sequences of repeated values into a single count and value.
 For example, instead of storing a series of pixels like 'bbbbwwww', RLE would encode it as '4w4b', resulting in a compact representation of 4 'b' followed by 4 'w'.
 This method significantly reduces the amount of data stored, especially in images with large areas of uniform color. RLE is easy to implement and requires minimal processing power, making it suitable for real-time applications.
