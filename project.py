@@ -410,7 +410,7 @@ def check_reconstruction_is_valid(original_images: str,
             original = read_image_as_array(path)
 
             if not np.array_equal(original, reconst_img):
-                return print("\nReconstruction invalid.")
+                return print(f"\nReconstruction is invalid on path: \n{path}.")
             
         except FileNotFoundError:
             continue

@@ -2,7 +2,7 @@
 
 #### Video Demo:  <URL HERE>
 #### Author: Balint Fazekas
-#### Date: 2024.09.25.
+#### Date: 2024.09.26.
 
 ## Description
 ### Understanding binary images
@@ -129,7 +129,7 @@ Therefore, it may be advisable to explore alternative (built-in) solutions for o
 
 ### Installation
 
-The program is implemented in Python in version 3.11.
+The program is implemented in Python in version 3.11.10. Futher versions of Python is not tested.
 
 If you have existing 'conda' installation (recommended) execute this line in terminal:
 
@@ -141,3 +141,8 @@ Alternatively install dependencies via 'pip':
 ```
 pip install -r requirements.txt
 ```
+
+
+### License
+
+Feel free to use.
