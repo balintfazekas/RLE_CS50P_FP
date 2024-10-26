@@ -1,6 +1,12 @@
 # Ignore .DS_Store
 .DS_Store
+.coverage
+*excluded.txt
+*.csv
+*.tif
+*.ipynb
 
 # Ignore data/
 data/
-
+.pytest_cache/
+__pycache__/
